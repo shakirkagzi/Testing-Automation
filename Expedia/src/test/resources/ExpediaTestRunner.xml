@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon E-Commerce" parallel="tests">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="shakirkagzi"/>
+    <parameter name="accessKey" value="b8368a1d-a174-4006-84ef-008b056dafa5"/>
+    <parameter name="os" value="Win8"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="46.0"/>
+    <parameter name="url" value="http://www.expedia.com"/>
+
+    <test name = "Expedia Search">
+        <classes>
+            <!--<class name="Search.amazon.SearchItem"/>-->
+            <!--&lt;!&ndash;<class name="dataToSearch.ItemsToBeSearched"/>&ndash;&gt;-->
+            <!--<class name="Search.amazon.SearchIphone"/>-->
+            <!--<class name="logInTest.LogInAccount"/>-->
+            <class name="search.SearchItem"/>
+            <!--<class name="logInTest.hoverOver"/>-->
+            <!--<class name="Search.amazon.SearchContentTV"/>-->
+            <!--<class name="Search.amazon.AddToCart"/>-->
+            <!--<class name="Search.amazon.OptionSearch"/>-->
+        </classes>
+    </test>
+
+</suite>
