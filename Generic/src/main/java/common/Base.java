@@ -175,9 +175,9 @@ public class Base {
         }
         return items;
     }
-    public void selectOptionByVisibleText(WebElement element, String value) {
-        Select select = new Select(element);
-        select.selectByVisibleText(value);
+    public void selectOptionByVisibleText(String element, String value) {
+      //  Select select = new Select(element);
+      // select.selectByVisibleText(value);
     }
     public void mouseHoverByCSS(String locator){
         try {

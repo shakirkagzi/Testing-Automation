@@ -13,15 +13,12 @@
 
     <test name = "Expedia Search">
         <classes>
-            <!--<class name="Search.amazon.SearchItem"/>-->
-            <!--&lt;!&ndash;<class name="dataToSearch.ItemsToBeSearched"/>&ndash;&gt;-->
-            <!--<class name="Search.amazon.SearchIphone"/>-->
-            <!--<class name="logInTest.LogInAccount"/>-->
+            <class name="search.FlightBook"/>
             <class name="search.SearchItem"/>
-            <!--<class name="logInTest.hoverOver"/>-->
-            <!--<class name="Search.amazon.SearchContentTV"/>-->
-            <!--<class name="Search.amazon.AddToCart"/>-->
-            <!--<class name="Search.amazon.OptionSearch"/>-->
+            <class name="search.CreateAccount"/>
+            <class name="search.LoginToAccount"/>
+            <class name="search.HotelBook"/>
+
         </classes>
     </test>
 

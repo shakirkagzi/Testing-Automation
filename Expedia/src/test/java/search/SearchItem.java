@@ -18,4 +18,5 @@ public class SearchItem extends Base {
         sleepFor(5);
         clickByCss(".flex-link");
     }
+
 }
